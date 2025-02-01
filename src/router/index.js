@@ -5,7 +5,7 @@ import Portfolio from '../views/PortfolioPage.vue'
 import Contact from '../views/ContactPage.vue'
 
 const routes = [
-  { path: '/', name: 'HomePage', component: HomePage },
+  { path: '/about-me', name: 'HomePage', component: HomePage },
   { path: '/experience', name: 'Experience', component: Experience },
   { path: '/portfolio', name: 'Portfolio', component: Portfolio },
   { path: '/contact', name: 'Contact', component: Contact }
