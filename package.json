@@ -1,7 +1,7 @@
 {
   "name": "about-me",
   "version": "0.1.0",
-  "homepage": "https://github.com/zayeemZaki/about-me",
+  "homepage": "https://zayeemZaki.github.io/about-me",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -21,5 +21,5 @@ export default {
 </script>
 
 <style>
-/* Your styles here */
+/* styles here */
 </style>
