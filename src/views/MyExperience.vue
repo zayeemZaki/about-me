@@ -66,6 +66,8 @@ Diagnosed and debugged staff and lab desktops at the University by employing tec
 .experience {
   padding: 2rem;
   text-align: center;
+  background: linear-gradient(135deg, #fff9c4 0%, #213555 100%);
+
 }
 
 /* Container for the experience cards */
@@ -78,7 +80,7 @@ Diagnosed and debugged staff and lab desktops at the University by employing tec
 
 /* Styles for each experience card */
 .experience-card {
-  background: #f9f9f9;
+  background: linear-gradient(135deg, rgb(221, 174, 174) 0%, #638C6D 100%);
   padding: 1rem;
   border-radius: 8px;
   width: 300px;

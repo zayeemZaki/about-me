@@ -45,6 +45,9 @@ export default {
 .portfolio {
   padding: 2rem;
   text-align: center;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(135deg, rgb(82, 28, 28) 0%,rgb(68, 110, 78) 100%);
+
 }
 .projects {
   display: flex;
@@ -57,13 +60,15 @@ export default {
   padding: 1rem;
   border-radius: 8px;
   width: 300px;
+  background: linear-gradient(135deg, rgb(248, 248, 248) 0%,rgb(68, 110, 78) 100%);
+
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .project h3 {
   margin-top: 0;
 }
 .project a {
-  color: #3498db;
+  color:rgb(47, 33, 236);
   text-decoration: none;
   font-weight: bold;
 }

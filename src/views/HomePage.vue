@@ -7,7 +7,8 @@
         <p class="intro-subtitle">Innovative Software Developer & AI Enthusiast</p>
         <div class="about-me">
           <p data-aos="fade-up">
-            I am a passionate and driven Computer Science student at The University of Toledo, set to graduate in December 2025. With a strong GPA of 3.7 and recognition on the President's and Dean's Lists, I have built a solid foundation in <b>Data Structures</b>, <b>Object-Oriented Programming</b>, and <b>Software Development</b>.
+            I am a passionate and driven Computer Science student at The University of Toledo, set to graduate in December 2025. 
+            With a strong GPA of 3.7 and recognition on the President's and Dean's Lists, I have built a solid foundation in <b>Data Structures</b>, <b>Object-Oriented Programming</b>, and <b>Software Development</b>.
           </p>
           <p data-aos="fade-up">
             My internship at <b>First Solar</b> as an IT Security Intern enabled me to automate workflows using <b>Python</b> and <b>CrowdStrike APIs</b>, manage user permissions, and execute real-time security commands. I also developed a <b>Flask-based</b> website with a <b>Bootstrap-powered</b> front end, streamlining administrative tasks.
@@ -22,6 +23,7 @@
             As I aspire to become a <b>Software Developer</b>, I am eager to contribute to innovative projects and solve real-world problems, thriving in dynamic environments with impactful solutions.
           </p>
         </div>
+
       </div>
     </transition>
 
@@ -180,8 +182,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg,rgb(8, 8, 8) 0%, #638C6D 100%);
-
+  background: linear-gradient(135deg, rgb(8, 8, 8) 0%, #638C6D 100%);
 }
 .intro-title {
   position: relative;
@@ -234,7 +235,6 @@ export default {
   margin-top: 2rem;
   border-radius: 12px;
   background: linear-gradient(135deg, #e0f7fa 0%, #213555 100%);
-
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .certificates-grid {
@@ -252,14 +252,16 @@ export default {
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  background: #213555;
+  background:rgb(255, 255, 255);
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .certificate img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: auto;        /* Let height adjust automatically */
+  max-height: 200px;   /* Ensure a consistent maximum height */
+  object-fit: contain; /* Display the whole image */
   display: block;
+  background-color: #fff;
 }
 .certificate p {
   margin: 0;
